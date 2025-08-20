@@ -1,0 +1,28 @@
+class Main {
+public static void main(String[] args) {
+
+int n = 0;
+long m = 0;
+boolean yes = true;
+
+
+for(int i = 1; i < 100; i++){
+  if(i % 2 != 0){
+    System.out.print(i + " ");
+  }
+    }
+System.out.println(" ");
+for(int k = 1; k < 100; k++){
+  if(k % 3 == 0){
+    System.out.print(k + " ");
+  }
+    }
+System.out.println(" ");
+for(int j = 1000; j > 0; j--){
+  if(j % 10 == 0){
+    System.out.print(j + " - ");
+  }
+    }
+System.out.println(" ");
+}
+}
